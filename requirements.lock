@@ -14,8 +14,6 @@ certifi==2022.12.7
     # via requests
 charset-normalizer==2.1.1
     # via requests
-colorama==0.4.6
-    # via tqdm
 filelock==3.13.1
     # via torch
 fsspec==2024.2.0
@@ -51,13 +49,13 @@ six==1.17.0
     # via visdom
 sympy==1.13.1
     # via torch
-torch==2.5.1+cu118
+torch==2.5.1
     # via prototypical-networks
     # via torchnet
     # via torchvision
 torchnet==0.0.4
     # via prototypical-networks
-torchvision==0.20.1+cu118
+torchvision==0.20.1
     # via prototypical-networks
 tornado==6.4.2
     # via visdom

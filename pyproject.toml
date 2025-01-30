@@ -5,8 +5,8 @@ description = "Add your description here"
 dependencies = [
     "tqdm>=4.66.5",
     "torchnet>=0.0.4",
-    "torch==2.5.1+cu118",
-    "torchvision==0.20.1+cu118",
+    "torch==2.5.1",
+    "torchvision==0.20.1",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
@@ -27,4 +27,4 @@ packages = ["protonets"]
 
 [[tool.rye.sources]]
 name = "pytorch"
-url = "https://download.pytorch.org/whl/cu118"
+url = "https://download.pytorch.org/whl/cu118/torch"
